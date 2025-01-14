@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    
+    
+}
+
+@media  screen and (max-width: 768px) {
+
+    .intro a:hover{
+        font-family: ral-regular;
+    }
+
+    .intro{
+        width: 80%;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+
+@media  screen and (max-width: 576px) {
+    @font-face {
+        font-family: ral-bold;
+        src: url('../assets/fonts/Raleway-Bold.ttf');
+    }
+    
+    h1,h2,h3{
+        font-family: ral-bold;
+    }
+
+    .jump-btn{
+        padding: 15px 0px;
+    }
+    .intro a{
+        padding: 5px 15px;
+        font-size: 16px;
+        font-family: ral-regular;
+    }
+
+    .arrow{
+        margin-left: 5px;
+    }
+
+    .arrow{
+        font-size: 15px;
+    }
+
+    .intro a:hover{
+        font-family: ral-regular;
+    }
+
+    .name-bar span{
+        font-weight: 400;
+    }
+
+    .single-bar{
+        height: 22px;
+    }
+}
